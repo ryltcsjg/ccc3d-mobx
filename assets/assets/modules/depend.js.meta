@@ -1,0 +1,18 @@
+{
+  "ver": "2.0.14",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "1076e29b-e13e-4013-868f-7d84a31f5a01",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": true,
+    "moduleId": "project:///assets/modules/depend.js",
+    "isPlugin": true,
+    "loadPluginInWeb": true,
+    "loadPluginInNative": true,
+    "loadPluginInEditor": true
+  }
+}

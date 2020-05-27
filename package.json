@@ -1,0 +1,9 @@
+{
+  "name": "ccc3d-mobx",
+  "type": "3d",
+  "uuid": "f41db9ae-9ecc-46be-84fe-91b525f5ecc7",
+  "dependencies": {
+    "mobx": "^5.15.4"
+  },
+  "version": "1.1.0"
+}
