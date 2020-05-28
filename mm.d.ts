@@ -15,7 +15,7 @@ interface IAutorunOptions {
 }
 
 declare type IReactionOptions = IAutorunOptions & {
-  fireImmediately?: boolean; //onAddToStage时是否调用，默认false
+  fireImmediately?: boolean; //onLoad时是否调用，默认false
   equals?: IEqualsComparer<any>;
 };
 
@@ -133,5 +133,5 @@ declare module mm {
 
   export const Observer: any;
   export const react: any;
-  export const reaction: (Function, option?: IReactionOptions) => any;
+  export const reaction: (expression: () => any, option?: IReactionOptions) => any;
 }
