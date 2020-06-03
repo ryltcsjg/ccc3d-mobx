@@ -1,9 +1,14 @@
-import * as mobx from "mobx";
-import { Observer, react, reaction } from "./cc-mobx/ObserverClass";
+import * as mobx from 'mobx';
+import { Observer, react, reaction } from './cc-mobx/ObserverClass';
 
-export const mm = {
+const mm = {
     mobx,
     Observer,
     react,
-    reaction
-};
+    reaction,
+}
+
+let e = window || global;
+if (e) {
+    e.mm = mm
+}
