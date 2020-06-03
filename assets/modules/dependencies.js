@@ -5,5 +5,5 @@ if("function"==typeof define&&define.amd)define([],t)
 先将define.amd值设置为null，不确定会否影响其它功能
  */
 if(window.define){
-    window.define.amd=null;
+  window.define.amd=null;
 }

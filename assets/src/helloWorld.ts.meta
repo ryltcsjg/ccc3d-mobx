@@ -2,7 +2,7 @@
   "ver": "2.0.14",
   "importer": "typescript",
   "imported": true,
-  "uuid": "8ea6d927-0f86-420f-9a42-d7970ec37f2e",
+  "uuid": "8d09d016-74a8-4ed0-b6b1-a57db7a8c372",
   "files": [
     ".js",
     ".trans"
@@ -10,6 +10,6 @@
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/assets/src/store/store.js"
+    "moduleId": "project:///assets/src/helloWorld.js"
   }
 }
